@@ -1,0 +1,61 @@
+.get-container {
+  text-align: center;
+  margin-top: 2vh;
+}
+.get-contents {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #b7e4c7;
+}
+.get-id {
+  margin-bottom: 2vh;
+  font-size: 0.8rem;
+}
+.get-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.get-option1,
+.get-option2,
+.get-option3,
+.get-option4 {
+  margin-right: 3vw;
+  font-size: 0.9rem;
+}
+.get-delete-box {
+  background-color: tomato;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.get-yes-or-no {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.get-confirmation {
+  margin: 1vh 0;
+  font-size: 1.2rem;
+}
+.get-yes,
+.get-no {
+  background-color: teal;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .get-contents {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .get-options {
+    display: grid;
+  }
+}

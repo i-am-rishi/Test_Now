@@ -1,0 +1,25 @@
+.admin-container {
+  margin-top: 10vh;
+}
+.admin-login {
+  margin-top: 35vh;
+  text-align: center;
+}
+.admin-submit {
+  height: 5vh;
+  width: 20vw;
+  /* margin-left: 40%; */
+  margin-top: 2vh;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+}
+.admin-contents {
+  text-align: center;
+  padding-top: 2vh;
+}
+input {
+  width: 30vw;
+  height: 3vh;
+}

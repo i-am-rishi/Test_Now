@@ -1,0 +1,33 @@
+.add-container {
+  text-align: center;
+  margin-top: 5vh;
+}
+.add-input-question {
+  width: 40vw;
+  height: 5vh;
+  margin-bottom: 1vh;
+}
+.add-input-options {
+  margin-bottom: 1vh;
+  width: 20vw;
+}
+.add-submit {
+  height: 6vh;
+  margin-top: 2vh;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: tomato;
+}
+.add-answer {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+@media only screen and (max-width: 700px) {
+  .add-input-question {
+    width: 60vw;
+  }
+  .add-input-options {
+    width: 40vw;
+  }
+}
